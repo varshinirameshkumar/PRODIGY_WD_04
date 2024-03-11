@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>SRIVARSHINI R - Web Developer</title>
+  <!-- Add your CSS styles here -->
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #0a0a0a;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      font-size: x-large;
+    }
+
+    section {
+      padding: 40px;
+      background-color: #223644
+    }
+
+    img {
+      max-width: none;
+      height: fit-content;
+      border-radius: 50%;
+      padding: 0dvb;
+    }
+
+    h1, h2, h3 {
+      color: #627475;
+      text-align: initial;
+      font-size: xx-large;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+      color: rgb(162, 168, 179);
+      font-size: medium;
+    }
+    .img-container {
+        text-align: right;
+        font-size: small;
+    }
+    p {
+        font-size: large;
+        color: rgb(162, 168, 179);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>SRIVARSHINI R</h1>
+    <p>Web Developer</p>
+  </header>
+
+  <section id="home">
+    <div class="img-container">
+    <img src="img2.jpg" alt="Your Professional Photo">
+</div>
+    <h2>Elevating Experiences</h2>
+    <p>As a budding web developer, I bring a harmonious blend of technical prowess and creative innovation to the digital realm. With a passion for transforming ideas into immersive online experiences, I stand out through:
+    </p>
+    <p>
+        FULLSTACK: I am in intermediate level in both front-end and back-end technologies, I navigate the full spectrum of web development with finesse, ensuring seamless functionality and user-centric design.
+    </p>
+    <p>
+        CREATIVE CODING: Beyond conventional development, I infuse creativity into my code, translating visions into visually stunning and intuitive interfaces. Every line of code is a brushstroke on the canvas of the web.
+
+    </p>
+    <p>
+        COLLABORATIVE APPROACH: Teamwork is at the core of my development philosophy. I excel in collaborative environments, valuing open communication and the synergy that arises from collective problem-solving.
+
+    </p>
+    <p>
+        In a world where digital landscapes constantly evolve, I bring not just technical skills but a holistic approach that fuses technology with creativity. Let's embark on a journey where your web presence isn't just developed; it's crafted with a touch of innovation and a dash of uniqueness. Welcome to the intersection of function and artistry.
+
+    </p>
+  </section>
+
+  
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p id="about-details">Greetings! I'm a passionate buddingweb developer with a eagerness to learn and improve my skills, solid education, hoping to develop a diverse professional experiences. Here's a glimpse into my journey:</p>
+    <button onclick="toggleDetails()">Show More</button>
+    <ul id="additional-details" style="display: none;">
+      <li>EDUCATION:</li>
+      <li>~Persuing second year in Bachelor's Degree in Computer Science and Engineering</li>
+      <li>~With CGPA of 8.8/10</li>
+      <li>~Graduating Year - 2026 </li>
+      <li>INTERN AT PRODIGY INFOTECH:</li>
+      <li>~Virtual Mode</li>
+      <li>~Working as a Web Developer.</li>
+      <li>~This experience has honed my skills in HTML, CSS, JavaScript, contributing to the success of starting my career as a Web Developer.</li>
+      <li>PROFESSIONAL SKILLS:</li>
+      <li>~Python Programming</li>
+      <li>~C Programming</li>
+      <li>~Java</li>
+      <li>~Data Structures and Algorithms</li>
+      <li>~HTML, CSS</li>
+      <li>~JavaScript</li>
+      <li>LEARNINGS AND CERTIFICATION:</li>
+      <li>~I have indulged myself in learning new technologies and also I have done various Certifications. </li>
+      <li>This snapshot of my educational journey and professional endeavors showcases my commitment to excellence in web development. I'm excited about the possibilities that lie ahead and look forward to contributing my skills and passion to future projects.</li>
+      
+    </ul>
+  </section>
+
+  <section id="about">
+    <h3>Contact</h3>
+    <p><a href="https://www.linkedin.com/in/srivarshini-rameshkumar-87994127b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer">My Linkedin Profile</a>
+    </p>
+    <p><a href="https://github.com/varshinirameshkumar" target="_blank" rel="noopener noreferrer">My GitHub Profile</a>
+    </p>
+
+  <script>
+    function toggleDetails() {
+      var additionalDetails = document.getElementById("additional-details");
+      var aboutDetails = document.getElementById("about-details");
+      
+      if (additionalDetails.style.display === "none") {
+        additionalDetails.style.display = "block";
+        aboutDetails.innerHTML = "Brief overview of my background.";
+      } else {
+        additionalDetails.style.display = "none";
+        aboutDetails.innerHTML = "Greetings! I'm a passionate buddingweb developer with a eagerness to learn and improve my skills, solid education, hoping to develop a diverse professional experiences. Here's a glimpse into my journey:";
+      }
+    }
+  </script>
+
+</body>
+</html>
